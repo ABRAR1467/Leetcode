@@ -1,1 +1,6 @@
+Intuition :
+Use a set to dynamically store unique AND results of subarrays ending at each element to efficiently track potential candidates.
+For each element, compute new AND values by combining it with all previous AND results and itself, updating the set.
+Continuously check and update the minimum absolute difference between 𝑘
+and these AND values to find the optimal subarray.
 
