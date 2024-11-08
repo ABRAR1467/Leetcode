@@ -9,7 +9,6 @@ public:
         {
             xorr^=nums[i];
         }
-        int y=0;
         for(int i=0;i<n;i++)
         {
             ans[i] = maxxor^xorr;
